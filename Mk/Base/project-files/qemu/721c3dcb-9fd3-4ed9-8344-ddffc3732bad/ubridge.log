@@ -20,3 +20,7 @@ UDP tunnel connecting from local port 10011 to IPv4 addresss 127.0.0.1 on port 1
 UDP tunnel connecting from local port 10000 to IPv4 addresss 127.0.0.1 on port 10001
 Destination NIO listener thread for QEMU-721c3dcb-9fd3-4ed9-8344-ddffc3732bad-4 has started
 Source NIO listener thread for QEMU-721c3dcb-9fd3-4ed9-8344-ddffc3732bad-4 has started
+UDP tunnel connecting from local port 10003 to IPv4 addresss 127.0.0.1 on port 10002
+UDP tunnel connecting from local port 10012 to IPv4 addresss 127.0.0.1 on port 10013
+Destination NIO listener thread for QEMU-721c3dcb-9fd3-4ed9-8344-ddffc3732bad-0 has started
+Source NIO listener thread for QEMU-721c3dcb-9fd3-4ed9-8344-ddffc3732bad-0 has started
