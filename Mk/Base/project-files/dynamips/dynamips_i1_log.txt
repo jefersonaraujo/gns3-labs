@@ -1,0 +1,22 @@
+Feb 25 17:56:36.429 HYPERVISOR: Release 0.2.19-amd64/Linux (tag 2019011912)
+Feb 25 14:56:36.429 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40487.
+Feb 25 14:56:36.436 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 25 14:56:36.437 HYPERVISOR: exec_cmd: hypervisor working_dir /ARQUIVOS/DEVELOP/gns3-labs/Mk/Base/project-files/dynamips 
+Feb 25 14:56:36.437 GENERAL: working_dir=/ARQUIVOS/DEVELOP/gns3-labs/Mk/Base/project-files/dynamips
+Feb 25 14:56:36.437 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Feb 25 14:56:38.714 HYPERVISOR: exec_cmd: nio create_udp udp-bf758f65-837d-4ee2-8e59-0ab8ac7b0325 10017 127.0.0.1 10016 
+Feb 25 14:56:38.714 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-bf758f65-837d-4ee2-8e59-0ab8ac7b0325 
+Feb 25 14:56:38.731 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-bf758f65-837d-4ee2-8e59-0ab8ac7b0325 1 
+Feb 25 14:56:46.222 HYPERVISOR: exec_cmd: nio create_udp udp-150c894b-a05a-4682-9aff-363303ee5ed5 10028 127.0.0.1 10029 
+Feb 25 14:56:46.222 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-150c894b-a05a-4682-9aff-363303ee5ed5 
+Feb 25 14:56:46.224 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-150c894b-a05a-4682-9aff-363303ee5ed5 1 
+Feb 25 14:57:29.458 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-bf758f65-837d-4ee2-8e59-0ab8ac7b0325 1 
+Feb 25 14:57:29.459 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-150c894b-a05a-4682-9aff-363303ee5ed5 1 
+Feb 25 14:57:44.164 HYPERVISOR: exec_cmd: ethsw remove_nio Ethernetswitch-1 udp-bf758f65-837d-4ee2-8e59-0ab8ac7b0325 
+Feb 25 14:57:44.169 HYPERVISOR: exec_cmd: nio delete udp-bf758f65-837d-4ee2-8e59-0ab8ac7b0325 
+Feb 25 14:57:44.188 HYPERVISOR: exec_cmd: ethsw remove_nio Ethernetswitch-1 udp-150c894b-a05a-4682-9aff-363303ee5ed5 
+Feb 25 14:57:44.189 HYPERVISOR: exec_cmd: nio delete udp-150c894b-a05a-4682-9aff-363303ee5ed5 
+Feb 25 14:57:44.239 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-1 
+Feb 25 14:57:44.240 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 25 14:57:44.493 HYPERVISOR: Stopped.
+Feb 25 14:57:44.493 GENERAL: reset done.
