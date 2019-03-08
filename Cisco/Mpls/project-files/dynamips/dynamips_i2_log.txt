@@ -24,3 +24,20 @@ Mar 08 15:10:32.630 HYPERVISOR: exec_cmd: vm set_ios R2 /home/jeferson/GNS3/imag
 Mar 08 15:10:55.746 HYPERVISOR: exec_cmd: vm set_ios R2 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
 Mar 08 15:11:15.695 HYPERVISOR: exec_cmd: vm set_ios R2 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
 Mar 08 15:11:22.846 HYPERVISOR: exec_cmd: vm set_ios R2 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:23:36.579 HYPERVISOR: exec_cmd: nio create_udp udp-3d704e3a-8873-4b3c-a9c1-a15548247db0 10008 127.0.0.1 10009 
+Mar 08 15:23:36.608 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-3d704e3a-8873-4b3c-a9c1-a15548247db0 
+Mar 08 15:23:36.608 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 08 15:25:05.345 HYPERVISOR: exec_cmd: nio create_udp udp-613c3c8a-0e16-4b41-bb55-8ff751f00b24 10020 127.0.0.1 10021 
+Mar 08 15:25:05.346 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-613c3c8a-0e16-4b41-bb55-8ff751f00b24 
+Mar 08 15:25:05.346 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 08 15:25:29.297 HYPERVISOR: exec_cmd: vm set_ios R2 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:25:29.298 HYPERVISOR: exec_cmd: vm rename R2 LSR2 
+Mar 08 15:25:29.363 HYPERVISOR: exec_cmd: vm set_ios LSR2 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:25:29.413 HYPERVISOR: exec_cmd: vm set_ios LSR2 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:25:29.462 HYPERVISOR: exec_cmd: vm set_ios LSR2 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:25:39.018 HYPERVISOR: exec_cmd: vm set_ios LSR2 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:25:39.019 HYPERVISOR: exec_cmd: vm rename LSR2 LSR3 
+Mar 08 15:25:39.088 HYPERVISOR: exec_cmd: vm set_ios LSR3 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:25:39.150 HYPERVISOR: exec_cmd: vm set_ios LSR3 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:25:39.213 HYPERVISOR: exec_cmd: vm set_ios LSR3 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:29:17.900 HYPERVISOR: exec_cmd: vm set_ios LSR3 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 

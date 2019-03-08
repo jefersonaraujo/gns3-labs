@@ -1,0 +1,1 @@
+Mar 08 15:25:45.500 VM: renamed from 'R1' to 'LSR2'

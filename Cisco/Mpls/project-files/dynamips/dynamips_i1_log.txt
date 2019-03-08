@@ -24,3 +24,15 @@ Mar 08 15:10:30.025 HYPERVISOR: exec_cmd: vm set_ios R1 /home/jeferson/GNS3/imag
 Mar 08 15:10:53.916 HYPERVISOR: exec_cmd: vm set_ios R1 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
 Mar 08 15:11:00.396 HYPERVISOR: exec_cmd: vm set_ios R1 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
 Mar 08 15:11:24.461 HYPERVISOR: exec_cmd: vm set_ios R1 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:15:06.727 HYPERVISOR: exec_cmd: vm set_ios R1 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:24:45.855 HYPERVISOR: exec_cmd: nio create_udp udp-b6ceed47-10e5-40a8-9746-fe2a3ae58a3d 10016 127.0.0.1 10017 
+Mar 08 15:24:45.882 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-b6ceed47-10e5-40a8-9746-fe2a3ae58a3d 
+Mar 08 15:24:45.883 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 08 15:25:05.354 HYPERVISOR: exec_cmd: nio create_udp udp-f2f8f983-4ad6-4097-ba6a-0acc317622d0 10022 127.0.0.1 10023 
+Mar 08 15:25:05.356 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-f2f8f983-4ad6-4097-ba6a-0acc317622d0 
+Mar 08 15:25:05.356 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 08 15:25:45.500 HYPERVISOR: exec_cmd: vm set_ios R1 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:25:45.500 HYPERVISOR: exec_cmd: vm rename R1 LSR2 
+Mar 08 15:25:45.569 HYPERVISOR: exec_cmd: vm set_ios LSR2 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:25:45.631 HYPERVISOR: exec_cmd: vm set_ios LSR2 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:25:45.687 HYPERVISOR: exec_cmd: vm set_ios LSR2 /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 

@@ -29,3 +29,15 @@ Mar 08 15:13:09.505 HYPERVISOR: exec_cmd: vm rename R4 FILIAL
 Mar 08 15:13:09.568 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
 Mar 08 15:13:09.620 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
 Mar 08 15:13:09.670 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:13:52.047 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:23:36.624 HYPERVISOR: exec_cmd: nio create_udp udp-9dc3a748-5b9e-4118-8f63-ee569dfa3bcd 10010 127.0.0.1 10011 
+Mar 08 15:23:36.646 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FILIAL 0 0 udp-9dc3a748-5b9e-4118-8f63-ee569dfa3bcd 
+Mar 08 15:23:36.646 HYPERVISOR: exec_cmd: vm get_status FILIAL 
+Mar 08 15:25:52.450 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:26:48.352 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:26:51.048 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:27:47.133 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:27:49.098 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:28:56.509 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:29:17.905 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:29:34.041 HYPERVISOR: exec_cmd: vm set_ios FILIAL /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 

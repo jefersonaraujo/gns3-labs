@@ -28,3 +28,10 @@ Mar 08 15:12:58.983 HYPERVISOR: exec_cmd: vm rename R5 MATRIZ
 Mar 08 15:12:59.041 HYPERVISOR: exec_cmd: vm set_ios MATRIZ /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
 Mar 08 15:12:59.093 HYPERVISOR: exec_cmd: vm set_ios MATRIZ /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
 Mar 08 15:12:59.142 HYPERVISOR: exec_cmd: vm set_ios MATRIZ /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:23:33.229 HYPERVISOR: exec_cmd: nio create_udp udp-dc2b59f0-e9d2-49e8-8034-3a55f37b6bd3 10004 127.0.0.1 10005 
+Mar 08 15:23:33.251 HYPERVISOR: exec_cmd: vm slot_add_nio_binding MATRIZ 0 0 udp-dc2b59f0-e9d2-49e8-8034-3a55f37b6bd3 
+Mar 08 15:23:33.252 HYPERVISOR: exec_cmd: vm get_status MATRIZ 
+Mar 08 15:25:49.571 HYPERVISOR: exec_cmd: vm set_ios MATRIZ /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:26:59.094 HYPERVISOR: exec_cmd: vm set_ios MATRIZ /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:29:29.604 HYPERVISOR: exec_cmd: vm set_ios MATRIZ /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 08 15:29:30.404 HYPERVISOR: exec_cmd: vm set_ios MATRIZ /home/jeferson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
